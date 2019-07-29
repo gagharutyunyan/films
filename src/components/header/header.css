@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	min-height: 90vh;
+	min-height: 100vh;
 }
 
 .slider {
@@ -32,7 +32,6 @@ header {
 }
 
 .about {
-	display: none;
 	position: relative;
 	width: 200px;
 	height: 310px;
@@ -91,7 +90,7 @@ header {
 }
 
 .toogle {
-	display: none;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-right: 100px;
@@ -100,25 +99,12 @@ header {
 }
 
 .toogle-description {
-	display: none;
 	text-align: center;
 	min-height: 100px;
 	color: rgb(243, 243, 243);
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-.slider-wrapper:hover .about {
-	display: block;
-}
-
-.slider-wrapper:hover .toogle {
-	display: flex;
-}
-
-
-.slider-wrapper:hover .toogle-description {
-	display: block;
-}
 
 .toogle-description:hover {
 	background-color: rgba(0, 0, 0, 0.7);

@@ -1,0 +1,20 @@
+.films-wrapper {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.films {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.films > .about {
+	margin: 30px;
+	width: 270px;
+	min-height: 400px;
+	background-size: 300px 400px;
+}
